@@ -1,0 +1,46 @@
+步驟一: 創建專案結構
+
+===專案結構====
+
+restaurant/
+├── package.json
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   ├── index.js
+│   └── components/
+│       └── RestaurantList.js
+└── README.md
+
+===cmd===
+npx create-react-app restaurant
+
+npm start
+=========
+
+步驟二: 創建 JSON 文件
+在 src/data 資料夹下創建一個名為 restaurants.json 
+
+===cmd===
+cd src
+mkdir data
+=========
+
+步驟三: 實現 RestaurantList 組件
+
+在 src/components/RestaurantList.js 
+
+===cmd===
+mkdir components
+cd components
+touch RestaurantList.js
+=========
+
+步驟四: 更新 App.js
+步驟五: 添加 CSS 样式
+步驟六: 啟動應用
+
